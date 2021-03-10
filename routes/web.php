@@ -17,8 +17,8 @@ use App\Http\Controllers\HomeC;
 |
 */
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::get('/blog', [BlogController::class, 'index'])->name('blog');
-Route::get('/blog-detail', [BlogDetailController::class, 'index'])->name('blog-detail');
-Route::get('/project-detail', [ProjectDetailController::class, 'index'])->name('project-detail');
-Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/contact', [ContactC::class, 'index'])->name('contact');
+Route::get('/blog', [BlogC::class, 'index'])->name('blog');
+Route::get('/blog-detail', [BlogDetailC::class, 'index'])->name('blog-detail');
+Route::get('/project-detail', [ProjectDetailC::class, 'index'])->name('project-detail');
+Route::get('/', [HomeC::class, 'index'])->name('index');
