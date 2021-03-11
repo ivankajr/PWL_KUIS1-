@@ -6,6 +6,7 @@ use App\Http\Controllers\BlogC;
 use App\Http\Controllers\BlogDetailCr;
 use App\Http\Controllers\ProjectDetailC;
 use App\Http\Controllers\HomeC;
+use App\Http\Controllers\BarangController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +23,4 @@ Route::get('/blog', [BlogC::class, 'index'])->name('blog');
 Route::get('/blog-detail', [BlogDetailC::class, 'index'])->name('blog-detail');
 Route::get('/project-detail', [ProjectDetailC::class, 'index'])->name('project-detail');
 Route::get('/', [HomeC::class, 'index'])->name('index');
+Route::get('/barang', [BarangController::class, 'index'])->name('index');
