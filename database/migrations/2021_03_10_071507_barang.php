@@ -13,7 +13,11 @@ class Barang extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('barang', function (Blueprint $table) {
+            $table->id();
+            $table->string('namabrg');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +27,7 @@ class Barang extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('barang');
+        Schema::dropIfExists('namabrg');
     }
 }
