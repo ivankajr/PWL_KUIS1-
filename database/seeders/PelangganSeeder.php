@@ -15,18 +15,18 @@ class PelangganSeeder extends Seeder
     
         public function run()
     {
-        db::table('pelanggan')->insert([[
+        db::table('pelanggans')->insert([[
             'id' => '1',
             'nmpelanggan' => 'Windah Basudarah',
             'alamat' => 'Probolinggo'
         ],[
             'id' => '2',
             'nmpelanggan' => 'Siti Marfuah',
-            'alamat' => 'Probolinggo'
+            'alamat' => 'Jakarta'
         ],[
             'id' => '3',
             'nmpelanggan' => 'Fila Del Fia',
-            'alamat' => 'Probolinggo'
+            'alamat' => 'Bali'
         ]]);
     }
 }
