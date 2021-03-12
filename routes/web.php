@@ -8,6 +8,7 @@ use App\Http\Controllers\ProjectDetailC;
 use App\Http\Controllers\HomeC;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\PegawaiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,3 +27,4 @@ Route::get('/project-detail', [ProjectDetailC::class, 'index'])->name('project-d
 Route::get('/', [HomeC::class, 'index'])->name('index');
 Route::get('/barang', [BarangController::class, 'index'])->name('barang');
 Route::get('/pelanggan', [PelangganController::class, 'index'])->name('pelanggan');
+Route::get('/pegawai', [PegawaiController::class, 'index'])->name('pegawai');
