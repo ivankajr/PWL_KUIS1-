@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Barang extends Model
+class pegawai extends Model
 {
-    public static function barang(){
+    public static function pegawai(){
 
-        return barang::all();
+        return pegawai::all();
     }
 }

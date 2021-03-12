@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\barang;
 use Illuminate\Http\Request;
-
+use App\Models\Barang;
 class BarangController extends Controller
 {
     public function index(){

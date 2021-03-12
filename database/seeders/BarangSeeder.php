@@ -14,6 +14,7 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
+       //menambah data pada table barang
         db::table('barangs')->insert([[
             'id' => '1',
             'Nmbarang' => 'Pensil'
