@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pelanggan extends Model
 {
-    public static function barang(){
-    return Pelanggan::all();
+    public static function Pelanggan(){
+        return Pelanggan::all();
     }
 }
