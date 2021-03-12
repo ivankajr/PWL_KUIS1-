@@ -9,6 +9,7 @@ use App\Http\Controllers\HomeC;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\SuplierController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +29,4 @@ Route::get('/', [HomeC::class, 'index'])->name('index');
 Route::get('/barang', [BarangController::class, 'index'])->name('barang');
 Route::get('/pelanggan', [PelangganController::class, 'index'])->name('pelanggan');
 Route::get('/pegawai', [PegawaiController::class, 'index'])->name('pegawai');
+Route::get('/suplier', [SuplierController::class, 'index'])->name('suplier');
