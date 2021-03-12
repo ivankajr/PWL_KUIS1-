@@ -7,7 +7,7 @@ use App\Http\Controllers\BlogDetailCr;
 use App\Http\Controllers\ProjectDetailC;
 use App\Http\Controllers\HomeC;
 use App\Http\Controllers\BarangController;
-use App\Http\Controllers\PelanggganController;
+use App\Http\Controllers\PelangganController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
