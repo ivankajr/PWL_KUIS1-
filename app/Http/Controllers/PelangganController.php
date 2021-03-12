@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\db;
+use App\Models\pelanggan;
 
 class PelangganController extends Controller
 {
