@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pelanggan;
 use Illuminate\Http\Request;
-use App\Models\pelanggan;
 
 class PelangganController extends Controller
 {
