@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class suplier extends Model
 {
-    use HasFactory;
+    public static function suplier(){
+        return suplier::all();
+    }
 }
