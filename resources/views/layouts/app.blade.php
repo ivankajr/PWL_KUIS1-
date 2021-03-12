@@ -67,6 +67,9 @@ https://templatemo.com/tm-538-digital-trend
                     <li class="nav-item">
                         <a href="{{route('pegawai')}}" class="nav-link pegawai">Pegawai</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{route('suplier')}}" class="nav-link suplier">Suplier</a>
+                    </li>
                 </ul>
             </div>
         </div>
