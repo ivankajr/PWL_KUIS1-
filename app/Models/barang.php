@@ -7,8 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class barang extends Model
 {
-    public static function barang(){
-
-        return barang::all();
-    }
+    use HasFactory;
 }
