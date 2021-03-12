@@ -15,6 +15,9 @@ class CreatePegawaisTable extends Migration
     {
         Schema::create('pegawais', function (Blueprint $table) {
             $table->id();
+            $table->string('namaPGW');
+            $table->string('alamat');
+            $table->string('noTLP');
             $table->timestamps();
         });
     }
@@ -27,5 +30,8 @@ class CreatePegawaisTable extends Migration
     public function down()
     {
         Schema::dropIfExists('pegawais');
+        $table->string('namaPGW');
+        $table->string('alamat');
+        $table->string('noTLP');
     }
 }
