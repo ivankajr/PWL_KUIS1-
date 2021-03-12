@@ -64,6 +64,9 @@ https://templatemo.com/tm-538-digital-trend
                     <li class="nav-item">
                         <a href="{{route('contact')}}" class="nav-link contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{route('pegawai')}}" class="nav-link pegawai">Pegawai</a>
+                    </li>
                 </ul>
             </div>
         </div>
