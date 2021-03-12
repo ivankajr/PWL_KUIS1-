@@ -56,6 +56,9 @@ https://templatemo.com/tm-538-digital-trend
                         <a href="{{route('blog')}}" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{route('barang')}}" class="nav-link">Barang</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{route('contact')}}" class="nav-link contact">Contact</a>
                     </li>
                 </ul>
