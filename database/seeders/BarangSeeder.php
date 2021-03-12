@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\db;
 
 class BarangSeeder extends Seeder
 {
@@ -13,7 +14,7 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        db::table('barang')->insert([[
+        db::table('barangs')->insert([[
             'id' => '1',
             'Nmbarang' => 'Pensil'
         ],[
