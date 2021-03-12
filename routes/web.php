@@ -23,4 +23,4 @@ Route::get('/blog', [BlogC::class, 'index'])->name('blog');
 Route::get('/blog-detail', [BlogDetailC::class, 'index'])->name('blog-detail');
 Route::get('/project-detail', [ProjectDetailC::class, 'index'])->name('project-detail');
 Route::get('/', [HomeC::class, 'index'])->name('index');
-Route::get('/barang', [BarangController::class, 'index'])->name('index');
+Route::get('/barang', [BarangController::class, 'index'])->name('barang');

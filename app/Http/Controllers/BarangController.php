@@ -7,8 +7,7 @@ use Illuminate\Http\Request;
 
 class BarangController extends Controller
 {
-    public function index()
-    {
-        return view('barang');
+    public function index(){
+        return view('barang', ['barang' => barangs::barang()]);
     }
 }
