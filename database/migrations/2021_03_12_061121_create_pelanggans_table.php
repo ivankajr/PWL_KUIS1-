@@ -29,5 +29,7 @@ class CreatePelanggansTable extends Migration
     public function down()
     {
         Schema::dropIfExists('pelanggans');
+        $table->string('nmpelanggan');
+        $table->string('alamat');
     }
 }
