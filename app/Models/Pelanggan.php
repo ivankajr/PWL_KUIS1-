@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pelanggan extends Model
 {
-    use HasFactory;
+    public static function barang(){
+    return Pelanggan::all();
+    }
 }
