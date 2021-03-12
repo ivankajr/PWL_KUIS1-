@@ -9,11 +9,11 @@
         <h1 class="mb-4" data-aos="fade-up">Barang Kami</h1>
       </div>
 
-      @foreach($barang as $data)
+      @foreach($barang as $barang)
       <div class="col-xl-4 col-sm-12 mt-5">
         <div class="item project-wrapper" data-aos="fade-up" data-aos-delay="100">
             <h3 class="text-truncate">
-              <span>{{$data->tittle}}</span>
+              <span>{{$barang->nmbarang}}</span>
             </h3>
           <!-- </div> -->
         </div>
