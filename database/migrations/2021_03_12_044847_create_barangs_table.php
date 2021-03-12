@@ -15,6 +15,7 @@ class CreateBarangsTable extends Migration
     {
         Schema::create('barangs', function (Blueprint $table) {
             $table->id();
+            $table->string('Nmbarang');
             $table->timestamps();
         });
     }
@@ -27,5 +28,6 @@ class CreateBarangsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('barangs');
+        $table->string('Nmbarangs');
     }
 }
