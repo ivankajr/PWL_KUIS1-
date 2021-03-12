@@ -15,6 +15,8 @@ class CreateSupliersTable extends Migration
     {
         Schema::create('supliers', function (Blueprint $table) {
             $table->id();
+            $table->string('namaSUP');
+            $table->string('alamat');
             $table->timestamps();
         });
     }
@@ -27,5 +29,7 @@ class CreateSupliersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('supliers');
+        $table->string('namaSUP');
+        $table->string('alamat');
     }
 }
