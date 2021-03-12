@@ -9,14 +9,14 @@
         <h1 class="mb-4" data-aos="fade-up">pelangggan Kami</h1>
       </div>
 
-      @foreach($pelangggan as $pelangggan)
+      @foreach($pelanggan as $pelanggan)
       <div class="col-xl-4 col-sm-12 mt-5">
         <div class="item project-wrapper" data-aos="fade-up" data-aos-delay="100">
             <h3 class="text-truncate">
-              <span>{{$pelangggan->nmpelanggan}}</span>
+              <span>{{$pelanggan->nmpelanggan}}</span>
             </h3>
             <h3 class="text-truncate">
-              <span>{{$pelangggan->alamat}}</span>
+              <span>{{$pelanggan->alamat}}</span>
             </h3>
           <!-- </div> -->
         </div>
