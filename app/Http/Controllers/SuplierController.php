@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Pelanggan;
+use App\Models\Suplier;
 
 class SuplierController extends Controller
 {
